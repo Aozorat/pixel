@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Farm Game - Phase 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            border: 2px solid #555;
+            image-rendering: pixelated;
+        }
+    </style>
+</head>
+<body>
+    <!-- โหลดตัวเจนรูป Pixel ก่อน -->
+    <script src="generate-assets.js"></script> 
+    <script src="src/GameScene.js"></script>
+    <script src="src/main.js"></script>
+</body>
+</html>
